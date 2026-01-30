@@ -8,7 +8,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    /* --secondary-color: #f4a261; /*
+
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -17,6 +17,8 @@
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
+
+/* --secondary-color: #f4a261; */
 
 header {
     background-color: var(--primary-color);
