@@ -8,7 +8,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
+    /* --secondary-color: #f4a261; /*
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -67,7 +67,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -79,8 +79,8 @@ h1 {
     /* white text - make sure there is enough contrast with the background-color */
 }
 
-article p {
-    position: relative;
+.hero article {
+    position: absolute;
     font: var(--body-font);
     text-align: left;
     padding-right: 35%;
