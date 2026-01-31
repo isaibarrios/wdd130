@@ -8,7 +8,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: rgba(244, 162, 97, 0.8);
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -88,11 +88,14 @@ article {
     background-color: var(--secondary-color);
     max-width: 60%;
     font-family: var(--body-font);
+    z-index: 2;
+    padding: 16px;
 }
 
 .hero article img {
     float: right;
     width: 250px;
     margin: 0 0 10px 16px;
+    display: block;
 
 }
