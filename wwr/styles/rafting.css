@@ -83,6 +83,33 @@ article {
     z-index: 3;
 }
 
+.hero article {
+    position: absolute;
+    top: 80px;
+    /* vertical placement over the image */
+    left: 20px;
+    /* horizontal placement */
+    max-width: 60%;
+    /* article width */
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    /* semi-transparent background */
+    padding: 16px;
+    /* spacing inside the box */
+    z-index: 2;
+    /* sits above the image */
+}
+
+.hero article img {
+    float: right;
+    /* float image to right of text */
+    width: 250px;
+    /* desktop image size */
+    margin: 0 0 10px 16px;
+    /* spacing around image */
+    display: block;
+}
+
 @media (max-width: 768px) {
     .hero article {
         max-width: 90%;
